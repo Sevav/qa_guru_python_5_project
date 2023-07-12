@@ -1,0 +1,4 @@
+{'level': 'WARNING', 'message': "https://reqres.in/ 310 Unrecognized feature: 'ambient-light-sensor'.", 'source': 'other', 'timestamp': 1689162785712}
+{'level': 'WARNING', 'message': "https://reqres.in/ 310 Unrecognized feature: 'vr'.", 'source': 'other', 'timestamp': 1689162785712}
+{'level': 'SEVERE', 'message': 'https://reqres.in/favicon.ico - Failed to load resource: the server responded with a status of 404 ()', 'source': 'network', 'timestamp': 1689162787252}
+{'level': 'SEVERE', 'message': 'https://reqres.in/api/users/23 - Failed to load resource: the server responded with a status of 404 ()', 'source': 'network', 'timestamp': 1689162787399}
