@@ -12,7 +12,7 @@ def test_single_user_not_found(reqres_ui):
 
     with step("SINGLE USER NOT FOUND (API)"):
         response = reqres_ui.get(
-            url='/api/users/26'
+            url='/api/users/23'
         )
 
     with step("Go to reqres.in (UI)"):

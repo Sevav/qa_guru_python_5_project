@@ -109,7 +109,7 @@
                     <li data-id="unknown" data-key="endpoint" data-http="get">
                         <a data-key="try-link" href="/api/unknown"> List &lt;resource&gt; </a>
                     </li>
-                    <li data-id="unknown-single" data-key="endpoint" data-http="get">
+                    <li data-id="unknown-single" data-key="endpoint" data-http="get" class="active">
                         <a data-key="try-link" href="/api/unknown/2"> Single &lt;resource&gt; </a>
                     </li>
                     <li data-id="unknown-single-not-found" data-key="endpoint" data-http="get">
@@ -129,7 +129,7 @@
                     <li data-id="delete" data-key="endpoint" data-http="delete">
                         <a data-key="try-link" href="/api/users/2"> Delete </a>
                     </li>
-                    <li data-id="register-successful" data-key="endpoint" data-http="post" class="active">
+                    <li data-id="register-successful" data-key="endpoint" data-http="post">
                         <a data-key="try-link" href="/api/register"> Register - successful </a>
                     </li>
                     <li data-id="register-unsuccessful" data-key="endpoint" data-http="post">
@@ -152,15 +152,12 @@
                 <div class="request">
                     <p class="request-title">
                         <strong>Request <i class="fa fa-arrow-circle-up"></i>
-                            <a class="link try-link" data-key="request-output-link" href="/api/register">
-                                <span class="url" data-key="url">/api/register</span>
+                            <a class="link try-link" data-key="request-output-link" href="/api/unknown/2">
+                                <span class="url" data-key="url">/api/unknown/2</span>
                             </a>
                         </strong>
                     </p>
-                    <pre data-key="output-request">{
-    <span class="key">"email":</span> <span class="string">"eve.holt@reqres.in"</span>,
-    <span class="key">"password":</span> <span class="string">"pistol"</span>
-}</pre>
+                    <pre data-key="output-request" hidden="true"></pre>
                 </div>
                 <!--
 				-->
@@ -174,8 +171,17 @@
                         <div class="cube2"></div>
                     </div>
                     <pre data-key="output-response">{
-    "id": 4,
-    "token": "QpwL5tke4Pnpja7X4"
+    "data": {
+        "id": 2,
+        "name": "fuchsia rose",
+        "year": 2001,
+        "color": "#C74375",
+        "pantone_value": "17-2031"
+    },
+    "support": {
+        "url": "<a href="https://reqres.in/#support-heading">https://reqres.in/#support-heading</a>",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
 }</pre>
                 </div>
             </div>
@@ -232,8 +238,8 @@
                 border-radius: 4px;
             }
         </style>
-        <div id="impeccable-js"><div id="_custom_" data-attributes="{&quot;type&quot;:&quot;custom&quot;,&quot;key&quot;:&quot;CEBIP53J&quot;,&quot;segment&quot;:&quot;placement:reqresin-sponsor&quot;,&quot;options&quot;:{&quot;target&quot;:&quot;#impeccable-js&quot;,&quot;template&quot;:&quot;\n        <a href=\&quot;##link##\&quot; rel=\&quot;sponsored noopener\&quot; target=\&quot;_blank\&quot; title=\&quot;##company## — ##tagline##\&quot;>\n        <img src=\&quot;##logo##\&quot; style=\&quot;background-color: ##backgroundColor##\&quot;>\n        <div class=\&quot;sponsor-description\&quot;>##description##</div>\n        <div class=\&quot;sponsor-cta\&quot; style=\&quot;background-color: ##backgroundColor##; color: ##textColor##\&quot;>##callToAction##</div>\n        </a>\n        &quot;,&quot;script_id&quot;:&quot;_bsa_srv-CEBIP53J_0&quot;,&quot;platforms&quot;:[&quot;desktop&quot;,&quot;mobile&quot;]},&quot;ads&quot;:[{&quot;active&quot;:&quot;1&quot;,&quot;ad_via_link&quot;:&quot;https://discover.buysellads.com/carbon?utm_source=reqres-in-custom&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=custom&quot;,&quot;backgroundColor&quot;:&quot;#161616&quot;,&quot;backgroundHoverColor&quot;:&quot;#161616&quot;,&quot;bannerid&quot;:&quot;434679&quot;,&quot;callToAction&quot;:&quot;Learn More&quot;,&quot;company&quot;:&quot;Authentic Jobs&quot;,&quot;companyTagline&quot;:&quot;Authentic Jobs&quot;,&quot;creativeid&quot;:&quot;483693&quot;,&quot;ctaBackgroundColor&quot;:&quot;#02afe5&quot;,&quot;ctaBackgroundHoverColor&quot;:&quot;#02afe5&quot;,&quot;ctaTextColor&quot;:&quot;#ffffff&quot;,&quot;ctaTextColorHover&quot;:&quot;#ffffff&quot;,&quot;description&quot;:&quot;Your new development career awaits. Check out the latest listings.&quot;,&quot;evenodd&quot;:&quot;0&quot;,&quot;external_id&quot;:&quot;104188&quot;,&quot;height&quot;:&quot;0&quot;,&quot;i&quot;:&quot;0&quot;,&quot;identifier&quot;:&quot;32eefbddc7ed2ec869a4a675088c19bb&quot;,&quot;image&quot;:&quot;https://cdn4.buysellads.net/uu/1/102396/1632995387-authenticjobs-icon.png&quot;,&quot;logo&quot;:&quot;https://cdn4.buysellads.net/uu/1/82584/1609854895-authentic-job-logo.png&quot;,&quot;longimp&quot;:&quot;TTNUIZS6TTTTTTCU2PWNVTTTTTT6SPMVKETTTTTT6DHBO7TTTTTTT&quot;,&quot;longlink&quot;:&quot;T6NUIZS6TTTTTTCU2PWNVTTTTTT6SPMVKETTTTTT6DHBO7TTTTTTT2PYQJICWNQM27KFCKZC2H4FLJL6GH76KOZVC2PE&quot;,&quot;num_slots&quot;:&quot;1&quot;,&quot;rendering&quot;:&quot;custom&quot;,&quot;statimp&quot;:&quot;//srv.buysellads.com/ads/imp/x/GTND42JYF67D6KQWCVYLYKQNFTADEKJWCW7IPZ3JCYADE27UCW7DV2QKF6ADK53ICVAI42QMCV7DEK3UCWBDL5QKC6SDE5QLCE7DVK3EHJWNBADLKM7UCBZG2Y&quot;,&quot;statlink&quot;:&quot;//srv.buysellads.com/ads/click/x/GTND42JYF67D6KQWCVYLYKQNFTADEKJWCW7IPZ3JCYADE27UCW7DV2QKF6ADK53ICVAI42QMCV7DEK3UCWBDL5QKC6SDE5QLCE7DVK3EHJNCLSIZ&quot;,&quot;textColor&quot;:&quot;#ffffff&quot;,&quot;textColorHover&quot;:&quot;#ffffff&quot;,&quot;timestamp&quot;:&quot;1689243339&quot;,&quot;width&quot;:&quot;0&quot;,&quot;zoneid&quot;:&quot;45581&quot;,&quot;zonekey&quot;:&quot;CEBIP53J&quot;}]}">
-        <a href="//srv.buysellads.com/ads/click/x/GTND42JYF67D6KQWCVYLYKQNFTADEKJWCW7IPZ3JCYADE27UCW7DV2QKF6ADK53ICVAI42QMCV7DEK3UCWBDL5QKC6SDE5QLCE7DVK3EHJNCLSIZ?segment=placement:reqresin-sponsor;" rel="sponsored noopener" target="_blank" title="Authentic Jobs — Authentic Jobs">
+        <div id="impeccable-js"><div id="_custom_" data-attributes="{&quot;type&quot;:&quot;custom&quot;,&quot;key&quot;:&quot;CEBIP53J&quot;,&quot;segment&quot;:&quot;placement:reqresin-sponsor&quot;,&quot;options&quot;:{&quot;target&quot;:&quot;#impeccable-js&quot;,&quot;template&quot;:&quot;\n        <a href=\&quot;##link##\&quot; rel=\&quot;sponsored noopener\&quot; target=\&quot;_blank\&quot; title=\&quot;##company## — ##tagline##\&quot;>\n        <img src=\&quot;##logo##\&quot; style=\&quot;background-color: ##backgroundColor##\&quot;>\n        <div class=\&quot;sponsor-description\&quot;>##description##</div>\n        <div class=\&quot;sponsor-cta\&quot; style=\&quot;background-color: ##backgroundColor##; color: ##textColor##\&quot;>##callToAction##</div>\n        </a>\n        &quot;,&quot;script_id&quot;:&quot;_bsa_srv-CEBIP53J_0&quot;,&quot;platforms&quot;:[&quot;desktop&quot;,&quot;mobile&quot;]},&quot;ads&quot;:[{&quot;active&quot;:&quot;1&quot;,&quot;ad_via_link&quot;:&quot;https://discover.buysellads.com/carbon?utm_source=reqres-in-custom&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=custom&quot;,&quot;backgroundColor&quot;:&quot;#161616&quot;,&quot;backgroundHoverColor&quot;:&quot;#161616&quot;,&quot;bannerid&quot;:&quot;434679&quot;,&quot;callToAction&quot;:&quot;Learn More&quot;,&quot;company&quot;:&quot;Authentic Jobs&quot;,&quot;companyTagline&quot;:&quot;Authentic Jobs&quot;,&quot;creativeid&quot;:&quot;483693&quot;,&quot;ctaBackgroundColor&quot;:&quot;#02afe5&quot;,&quot;ctaBackgroundHoverColor&quot;:&quot;#02afe5&quot;,&quot;ctaTextColor&quot;:&quot;#ffffff&quot;,&quot;ctaTextColorHover&quot;:&quot;#ffffff&quot;,&quot;description&quot;:&quot;Your new development career awaits. Check out the latest listings.&quot;,&quot;evenodd&quot;:&quot;0&quot;,&quot;external_id&quot;:&quot;104188&quot;,&quot;height&quot;:&quot;0&quot;,&quot;i&quot;:&quot;0&quot;,&quot;identifier&quot;:&quot;32eefbddc7ed2ec869a4a675088c19bb&quot;,&quot;image&quot;:&quot;https://cdn4.buysellads.net/uu/1/102396/1632995387-authenticjobs-icon.png&quot;,&quot;logo&quot;:&quot;https://cdn4.buysellads.net/uu/1/82584/1609854895-authentic-job-logo.png&quot;,&quot;longimp&quot;:&quot;T3CMZZS6TTTTTTHUVBWNVTTTTTT4S3MVKETTTTTTVDIBO7TTTTTTT&quot;,&quot;longlink&quot;:&quot;THCMZZS6TTTTTTHUVBWNVTTTTTT4S3MVKETTTTTTVDIBO7TTTTTTT2PYQJICWNQM27KFCKZC2H4FLJL6GH76KOZVC2PE&quot;,&quot;num_slots&quot;:&quot;1&quot;,&quot;rendering&quot;:&quot;custom&quot;,&quot;statimp&quot;:&quot;//srv.buysellads.com/ads/imp/x/GTND42JYF67D4KJLCKSLYKQNFTADEKQMCVAD5Z3JCYADE27NCWAIL27KF6ADK53ICVAI42QMCV7DEK3UF67IL2JKC6SDE5QLCEAIKK3EHJWNBADLKM7UCBZG2Y&quot;,&quot;statlink&quot;:&quot;//srv.buysellads.com/ads/click/x/GTND42JYF67D4KJLCKSLYKQNFTADEKQMCVAD5Z3JCYADE27NCWAIL27KF6ADK53ICVAI42QMCV7DEK3UF67IL2JKC6SDE5QLCEAIKK3EHJNCLSIZ&quot;,&quot;textColor&quot;:&quot;#ffffff&quot;,&quot;textColorHover&quot;:&quot;#ffffff&quot;,&quot;timestamp&quot;:&quot;1689252452&quot;,&quot;width&quot;:&quot;0&quot;,&quot;zoneid&quot;:&quot;45581&quot;,&quot;zonekey&quot;:&quot;CEBIP53J&quot;}]}">
+        <a href="//srv.buysellads.com/ads/click/x/GTND42JYF67D4KJLCKSLYKQNFTADEKQMCVAD5Z3JCYADE27NCWAIL27KF6ADK53ICVAI42QMCV7DEK3UF67IL2JKC6SDE5QLCEAIKK3EHJNCLSIZ?segment=placement:reqresin-sponsor;" rel="sponsored noopener" target="_blank" title="Authentic Jobs — Authentic Jobs">
         <img src="https://cdn4.buysellads.net/uu/1/82584/1609854895-authentic-job-logo.png" style="background-color: #161616">
         <div class="sponsor-description">Your new development career awaits. Check out the latest listings.</div>
         <div class="sponsor-cta" style="background-color: #161616; color: #ffffff">Learn More</div>
@@ -584,4 +590,4 @@ xhr.send();
         </script>
     
 
-<iframe name="__privateStripeMetricsController6390" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="https://js.stripe.com/v3/m-outer-93afeeb17bc37e711759584dbfc50d47.html#url=https%3A%2F%2Freqres.in%2F&amp;title=&amp;referrer=&amp;muid=NA&amp;sid=NA&amp;version=6&amp;preview=false" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe></body></html>
+<iframe name="__privateStripeMetricsController5630" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="https://js.stripe.com/v3/m-outer-93afeeb17bc37e711759584dbfc50d47.html#url=https%3A%2F%2Freqres.in%2F&amp;title=&amp;referrer=&amp;muid=NA&amp;sid=NA&amp;version=6&amp;preview=false" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe></body></html>
