@@ -1,6 +1,5 @@
 {
   "base": {
-    "logo": "${WORKSPACE}/notifications/1.png",
     "project": "${JOB_BASE_NAME}",
     "environment": "CHROME v.100",
     "comment": "Homework telegram report",
