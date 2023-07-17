@@ -25,7 +25,7 @@
   <code><img width="5%" title="Jenkins" src="resources/logo/Jenkins.png"></code>
   <code><img width="5%" title="selenoid" src="resources/logo/selenoid.png"></code>
   <code><img width="5%" title="Allure Report" src="resources/logo/allure.png"></code>
-  <code><img width="5%" title="Telegram" src="resources/logo/telegramg.png"></code>
+  <code><img width="5%" title="Telegram" src="resources/logo/telegram.png"></code>
   <code><img width="5%" title="Telegram" src="resources/logo/allure_testops.png"></code>
 </p>
 
@@ -33,8 +33,7 @@
 ## Запуск тестов
 
 
-## <img width="6%" title="Jenkins" src="resources/logo/Jenkins.png"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_python_4_25/)
-[Запуск проекта в Jenkins](https://jenkins.autotests.cloud/job/qa_guru_python_5_project/)
+## <img width="6%" title="Jenkins" src="resources/logo/Jenkins.png"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_python_5_project/)
 Добавить проект в Jenkins и нажать кнопку "Собрать сейчас".
 
 <p><img src="resources/screenshots/chrome_wDkwqD6g8l.png" alt="Jenkins"/></p>
