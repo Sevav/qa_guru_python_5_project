@@ -36,21 +36,25 @@
 ## <img width="6%" title="Jenkins" src="resources/logo/Jenkins.png"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_python_5_project/)
 Добавить проект в Jenkins и нажать кнопку "Собрать сейчас".
 
-<p><img src="resources/screenshots/chrome_wDkwqD6g8l.png" alt="Jenkins"/></p>
+<p><img src="resources/screenshots/Jenkins.png" alt="Jenkins"/></p>
 
 ## <img width="6%" title="Allure" src="resources/logo/allure.png"> Пример [Allure](https://jenkins.autotests.cloud/job/qa_guru_python_5_project/19/allure/) отчетов
 
-<p><img src="resources/screenshots/chrome_37wxhxSSAY.png" alt="Allure in Jenkins"/></p>
+<p><img src="resources/screenshots/Allure-report.png" alt="Allure in Jenkins"/></p>
 
 В отчетах Allure для каждого UI-теста прикреплен скриншот, лог, ресурс html-страницы и видео прохождения теста
 
 ## <img width="5%" title="Allure" src="resources/logo/allure_testops.png"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/27144) 
 
+<p><img src="resources/screenshots/Allure TestOps.png" alt="Allure in Jenkins"/></p>
+
 ## <img width="6%" title="Telegram" src="resources/logo/telegram.png"> Отправка отчета в Telegram
+
+<p><img src="resources/screenshots/Telegram.png" alt="Allure in Jenkins"/></p>
 
 ### Пример видео прохождения теста
 
 
 <p align="center">
-  <img title="Video" src="resources/video/4f561a214d4de655f056eee249f26c95.gif"/>
+  <img title="Video" src="resources/video/Video.mp4"/>
 </p>
