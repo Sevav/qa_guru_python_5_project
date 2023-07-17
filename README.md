@@ -48,7 +48,7 @@
 
 ## <img width="6%" title="Telegram" src="resources/logo/telegram.png"> Отправка отчета в Telegram
 
-# Пример видео прохождения теста
+Пример видео прохождения теста
 
 
 <p align="center">
