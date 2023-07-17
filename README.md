@@ -49,11 +49,8 @@
 
 ### <img width="6%" title="Telegram" src="resources/logo/tg.png"> Telegram
 
-## Отправка отчета в Telegram
+## <img src="resources/screenshots/Telegram_XIvtt3wAXC.png" alt="Telegram"/> Отправка отчета в Telegram
 
-<img src="resources/screenshots/Telegram_XIvtt3wAXC.png" alt="Telegram"/>
-
-<img src="resources/screenshots/chrome_svRy4SokZf.png" alt="Allure"/>
 
 ## Пример видео прохождения теста
 
