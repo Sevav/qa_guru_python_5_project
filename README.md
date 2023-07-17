@@ -46,7 +46,9 @@
 
 В отчетах Allure для каждого UI-теста прикреплен скриншот, лог, ресурс html-страницы и видео прохождения теста
 
-## <img width="5%" title="Allure" src="resources/logo/allure_testops.png"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/27144) 
+Интеграция с Allure TestOps <img width="5%" title="Allure" src="resources/logo/allure_testops.png"> и Telegram <img width="6%" title="Telegram" src="resources/logo/telegram.png">
+
+## <img width="5%" title="Allure" src="resources/logo/allure_testops.png"> Пример отчетов в [Allure TestOps](https://allure.autotests.cloud/launch/27144) 
 
 <p><img src="resources/screenshots/Allure TestOps.png" alt="Allure in Jenkins"/></p>
 
