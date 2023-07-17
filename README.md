@@ -38,6 +38,8 @@
 
 <p><img src="resources/screenshots/Jenkins.png" alt="Jenkins"/></p>
 
+После прохождения тестов, результаты можно посмотреть в Allure отчете, где так же содержится ссылка на Jenkins
+
 ## <img width="6%" title="Allure" src="resources/logo/allure.png"> Пример [Allure](https://jenkins.autotests.cloud/job/qa_guru_python_5_project/19/allure/) отчетов
 
 <p><img src="resources/screenshots/Allure-report.png" alt="Allure in Jenkins"/></p>
