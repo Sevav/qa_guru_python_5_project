@@ -56,5 +56,5 @@
 
 
 <p align="center">
-  <img title="Video" src="resources/video/Video.mp4"/>
+  <img title="Video" src="resources/video/Video.gif"/>
 </p>
