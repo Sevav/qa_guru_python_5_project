@@ -43,14 +43,11 @@
 
 <p><img src="resources/screenshots/chrome_37wxhxSSAY.png" alt="Allure in Jenkins"/></p>
 
+В отчетах Allure для каждого UI-теста прикреплен скриншот, лог, ресурс html-страницы и видео прохождения теста
 
 ### <img width="6%" title="Allure" src="resources/logo/allure.png"> [Allure](https://allure.autotests.cloud/launch/27144/tree?treeId=6840)
 
 ## Интеграция с Allure TestOps
-
-<img src="resources/screenshots/chrome_svRy4SokZf.png" alt="Allure"/>
-
-<img src="resources/screenshots/chrome_0fD0R4DN59.png" alt="Allure"/>
 
 ### <img width="6%" title="Telegram" src="resources/logo/tg.png"> Telegram
 
@@ -58,9 +55,11 @@
 
 <img src="resources/screenshots/Telegram_XIvtt3wAXC.png" alt="Telegram"/>
 
+<img src="resources/screenshots/chrome_svRy4SokZf.png" alt="Allure"/>
+
 ## Пример видео прохождения теста
 
-В отчетах Allure для каждого UI-теста прикреплен скриншот, лог, ресурс html-страницы и видео прохождения теста
+
 
 <p align="center">
   <img title="Video" src="resources/video/4f561a214d4de655f056eee249f26c95.gif"/>
