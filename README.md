@@ -52,6 +52,8 @@
 
 <p><img src="resources/screenshots/Allure TestOps.png" alt="Allure in Jenkins"/></p>
 
+Результат о прохождении тестов присылается в телеграм, со ссылкой на Allure отчет.
+
 ## <img width="6%" title="Telegram" src="resources/logo/telegram.png"> Отправка отчета в Telegram
 
 <p><img src="resources/screenshots/Telegram.png" alt="Allure in Jenkins"/></p>
