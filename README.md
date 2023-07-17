@@ -56,5 +56,5 @@
 
 
 <p align="center">
-  <img title="Video" src="resources/video/Video.gif"/>
+  <img title="Video" src="C:\Users\kati6\OneDrive\Desktop\12\Video.gif"\>
 </p>
