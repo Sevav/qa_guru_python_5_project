@@ -1,6 +1,6 @@
-# Диплмный проект автотестов для сайта https://reqres.in/
+## Дипломный проект автотестов для сайта https://reqres.in/
 
-## Проект совмещает UI и API тесты
+### Проект совмещает UI и API тесты
 * UI + API тесты
     * Регистрация пользователя
     * Авторизация пользователя
@@ -14,7 +14,7 @@
     * Проверка доступности нескольких страниц (Параметризованный тест)
 
 
-## Применнные технологии
+## Используемые технологии
 <p  align="center">
   <code><img width="5%" title="Pycharm" src="resources/logo/pycharm.png"></code>
   <code><img width="5%" title="Python" src="resources/logo/python.png"></code>
@@ -30,23 +30,8 @@
 </p>
 
 
-
-
 ## Запуск тестов
-### Локально
-Склонировать проект. Через консоль в папке проекта выполнить команду:
-```
-pytest
-```
 
-### Удаленно
-```bash
-rm -rf allure-results/*
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-pytest . --alluredir=allure-results
-```
 
 ## <img width="6%" title="Jenkins" src="resources/logo/Jenkins.png"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_python_4_25/)
 Запуск тестов из Jenkins:
@@ -54,12 +39,12 @@ pytest . --alluredir=allure-results
 
 <p><img src="resources/screenshots/chrome_wDkwqD6g8l.png" alt="Jenkins"/></p>
 
-Нажать на иконку Allure возле завершившегося процесса для просмотра отчета
+Пример Allure отчетов
 
 <p><img src="resources/screenshots/chrome_37wxhxSSAY.png" alt="Allure in Jenkins"/></p>
 
 
-### <img width="6%" title="Allure" src="resources/logo/allure.png"> [Allure](https://jenkins.autotests.cloud/job/qa_guru_python_4_25/allure/)
+### <img width="6%" title="Allure" src="resources/logo/allure.png"> [Allure](https://allure.autotests.cloud/launch/27144/tree?treeId=6840)
 
 #### Примеры отчетов
 
