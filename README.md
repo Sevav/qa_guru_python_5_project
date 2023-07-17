@@ -34,7 +34,7 @@
 
 
 ## <img width="6%" title="Jenkins" src="resources/logo/Jenkins.png"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_python_4_25/)
-Запуск тестов из Jenkins:
+[Запуск проекта в Jenkins](https://jenkins.autotests.cloud/job/qa_guru_python_5_project/)
 Добавить проект в Jenkins и нажать кнопку "Собрать сейчас".
 
 <p><img src="resources/screenshots/chrome_wDkwqD6g8l.png" alt="Jenkins"/></p>
