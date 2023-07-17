@@ -38,7 +38,7 @@
 
 <p><img src="resources/screenshots/chrome_wDkwqD6g8l.png" alt="Jenkins"/></p>
 
-## <img width="6%" title="Allure" src="resources/logo/allure.png"> [Allure](https://jenkins.autotests.cloud/job/qa_guru_python_5_project/19/allure/) Пример Allure отчетов
+## <img width="6%" title="Allure" src="resources/logo/allure.png"> Пример (https://jenkins.autotests.cloud/job/qa_guru_python_5_project/19/allure/) отчетов
 
 <p><img src="resources/screenshots/chrome_37wxhxSSAY.png" alt="Allure in Jenkins"/></p>
 
