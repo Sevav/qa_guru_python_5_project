@@ -2,16 +2,16 @@
 
 ### Проект совмещает UI и API тесты
 * UI + API тесты
-    * Регистрация пользователя
+    * Регистрация пользователя с получением токена
     * Авторизация пользователя
-    * Ошибка авторизации - не введен пароль
+    * Ошибка авторизации если не был введен пароль
     * Отображение ресурса
-    * Отсутствие пользователя
+    * Пользователь не найден
 * API тесты
-    * Соответствие номера страницы запрашиваемой 
+    * Возвращение запрашиваемого номера страницы
     * Количество пользователей на странице
     * Валидация схемы ответа
-    * Проверка доступности нескольких страниц (Параметризованный тест)
+    * Проверка доступности нескольких страниц
 
 
 ## Используемые технологии
@@ -39,14 +39,14 @@
 
 <p><img src="resources/screenshots/chrome_wDkwqD6g8l.png" alt="Jenkins"/></p>
 
-Пример Allure отчетов
+## Пример Allure отчетов
 
 <p><img src="resources/screenshots/chrome_37wxhxSSAY.png" alt="Allure in Jenkins"/></p>
 
 
 ### <img width="6%" title="Allure" src="resources/logo/allure.png"> [Allure](https://allure.autotests.cloud/launch/27144/tree?treeId=6840)
 
-#### Примеры отчетов
+## Интеграция с Allure TestOps
 
 <img src="resources/screenshots/chrome_svRy4SokZf.png" alt="Allure"/>
 
@@ -54,11 +54,11 @@
 
 ### <img width="6%" title="Telegram" src="resources/logo/tg.png"> Telegram
 
-#### Настроена отправка отчета в Telegram
+## Отправка отчета в Telegram
 
 <img src="resources/screenshots/Telegram_XIvtt3wAXC.png" alt="Telegram"/>
 
-## Пример видео тестового прогона
+## Пример видео прохождения теста
 
 В отчетах Allure для каждого UI-теста прикреплен скриншот, лог, ресурс html-страницы и видео прохождения теста
 
