@@ -38,15 +38,14 @@
 
 <p><img src="resources/screenshots/chrome_wDkwqD6g8l.png" alt="Jenkins"/></p>
 
-## Пример Allure отчетов
+## <img width="6%" title="Allure" src="resources/logo/allure.png"> [Allure](https://jenkins.autotests.cloud/job/qa_guru_python_5_project/19/allure/) Пример Allure отчетов
 
 <p><img src="resources/screenshots/chrome_37wxhxSSAY.png" alt="Allure in Jenkins"/></p>
 
 В отчетах Allure для каждого UI-теста прикреплен скриншот, лог, ресурс html-страницы и видео прохождения теста
 
-### <img width="6%" title="Allure" src="resources/logo/allure.png"> [Allure](https://allure.autotests.cloud/launch/27144/tree?treeId=6840)
 
-## Интеграция с Allure TestOps
+## <img width="6%" title="Allure" src="resources/logo/allure_testops.png"> [Allure](https://allure.autotests.cloud/launch/27144) Интеграция с Allure TestOps
 
 ### <img width="6%" title="Telegram" src="resources/logo/tg.png"> Telegram
 
