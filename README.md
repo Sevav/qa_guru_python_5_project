@@ -47,9 +47,7 @@
 
 ## <img width="6%" title="Allure" src="resources/logo/allure_testops.png"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/27144) 
 
-### <img width="6%" title="Telegram" src="resources/logo/tg.png"> Telegram
-
-## <img src="resources/screenshots/Telegram_XIvtt3wAXC.png" alt="Telegram"/> Отправка отчета в Telegram
+## <img width="6%" title="Telegram" src="resources/logo/telegram.png"> Отправка отчета в Telegram
 
 
 ## Пример видео прохождения теста
