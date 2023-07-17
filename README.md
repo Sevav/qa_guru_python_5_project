@@ -34,7 +34,7 @@
 
 
 ## <img width="6%" title="Jenkins" src="resources/logo/Jenkins.png"> Запуск тестов из [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_python_5_project/)
-Добавить проект в Jenkins и нажать кнопку "Собрать сейчас".
+После добавления проекта в Jenkins и нажатия кнопки "Собрать сейчас" - начнется сборка тестов и их прохождение через виртуальную машину в Selenide.
 
 <p><img src="resources/screenshots/Jenkins.png" alt="Jenkins"/></p>
 
